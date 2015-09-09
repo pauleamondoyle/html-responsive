@@ -1,0 +1,198 @@
+/*FONT*/
+/*Font Montserrat added from Google Fonts. See first link in HTML head.*/
+
+/*BODY*/
+body {
+	background-color: #53B2ED;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	min-height: 100%;
+}
+
+/*HEADER*/
+#header{
+	background-color: white;
+	height: 50px;
+	width: 100%;
+	margin: 0;
+	padding-top: 20px;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0px 2px 2px gray;
+	
+}
+
+#logo{
+	height: 30px;
+	display: inline-block;
+	position: fixed;
+}
+
+/*PAGE TITLE*/
+h1{
+	margin-top: 120px;
+	margin-bottom: 40px;
+	margin-right: 0;
+	margin-left: 0;
+	text-align: center;
+}
+
+@media screen and (min-width: 800px){
+	/*OVERALL CONTAINER*/
+	#container-all {
+		margin: auto;
+		max-width: 1000px;
+	}
+
+	/*COLUMN FORMAT*/
+	#column-1{
+		display: inline-block;
+		width: 32.9%;
+		vertical-align: top;
+	}
+
+	#column-2 {
+		display: inline-block;
+		width: 32.9%;
+		vertical-align: top;
+	}
+
+	#column-3 {
+		display: inline-block;
+		width: 32.9%;
+		vertical-align: top;
+	}
+
+	input[type=submit] {
+	background-color: white;
+	color: #53B2ED;
+	width: 20%;
+	display: block;
+	margin-top: 3em;
+	margin-left: 76%; 
+	margin-bottom: 4em;
+	}
+
+	
+}
+
+@media screen and (max-width: 799px){
+	/*OVERALL CONTAINER*/
+	#container-all {
+		margin: auto;
+		max-width: 1000px;
+		text-align: center;
+	}
+
+	/*COLUMN FORMAT*/
+	#column-1{
+		display: block;
+		width: 100%;
+		vertical-align: top;
+	}
+
+	#column-2 {
+		display: block;
+		width: 100%;
+		vertical-align: top;
+	}
+
+	#column-3 {
+		display: block;
+		width: 100%;
+		vertical-align: top;
+	}
+	
+	input[type=submit]{
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 4em;
+		background-color: white;
+		color: #53B2ED;
+		width: 33%;
+		display: block;
+	}
+
+}
+
+/*LABEL and FORM FORMAT*/
+label{
+	font-size: 1em;
+	line-height: 2em;
+}
+
+input{
+	border: 2.5px solid white;
+	background-color: #53B2ED;
+	height: 2em;
+	width: 80%;
+	margin-bottom: 2em;
+	font-size: 1em;
+	padding-left: 0.7em;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+select{
+	background-color: #53B2ED;
+	color: white; 
+	width: 80%;
+	margin-bottom: 2.5em;
+	font-size: 1em;
+}
+
+textarea{
+	border:2.5px solid white;
+	background-color: #53B2ED;
+	color: white;
+	height: 8em;
+	width: 80%;
+	font-size: 1em;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0.7em;
+	margin-bottom: 2em;
+
+}
+
+/*FOCUS CHANGE IN COLOR*/
+input:focus{
+	border:2.5px solid #0767A3;
+	outline: none;
+}
+
+textarea:focus{
+	border:2.5px solid #0767A3;
+	outline: none;
+}
+
+/*PLACEHOLDER TEXT*/
+::-webkit-input-placeholder {
+   color: #0767A3;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1em;
+   font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #0767A3;
+   font-family: 'Montserrat', sans-serif; 
+   font-size: 1em; 
+   font-style: italic;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #0767A3;
+   font-family: 'Montserrat', sans-serif;  
+   font-size: 1em;
+   font-style: italic;
+}
+
+:-ms-input-placeholder {  
+   color: #0767A3;  
+   font-size: 1em;
+   font-family: 'Montserrat', sans-serif;
+   font-style: italic;
+}
